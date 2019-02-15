@@ -21,8 +21,7 @@
   "_requiredBy": [
     "#USER",
     "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/basiq-sdk-nodejs/-/basiq-sdk-nodejs-1.1.1.tgz",
+  ], 
   "_shasum": "6a850e059bab0697ffdc2af064bba27c6ef62f34",
   "_spec": "basiq-sdk-nodejs",
   "_where": "/mnt/e/workspaces/besuper-workspace/besuper-portal-api",
