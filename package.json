@@ -1,0 +1,70 @@
+{
+  "_from": "basiq-sdk-nodejs",
+  "_id": "basiq-sdk-nodejs@1.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-CIYX/IWtCXGUV4YX7zPE5i3n2qwKfix9Jxr0FMw70EDI5Bj4ltfN9gbk7P48q0jiUnSXC5NbfxP7CNwbrbubnQ==",
+  "_location": "/basiq-sdk-nodejs",
+  "_phantomChildren": {
+    "co": "4.6.0",
+    "fast-json-stable-stringify": "2.0.0"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "basiq-sdk-nodejs",
+    "name": "basiq-sdk-nodejs",
+    "escapedName": "basiq-sdk-nodejs",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/basiq-sdk-nodejs/-/basiq-sdk-nodejs-1.1.1.tgz",
+  "_shasum": "6a850e059bab0697ffdc2af064bba27c6ef62f34",
+  "_spec": "basiq-sdk-nodejs",
+  "_where": "/mnt/e/workspaces/besuper-workspace/besuper-portal-api",
+  "author": {
+    "name": "Basiq.io"
+  },
+  "bugs": {
+    "url": "https://github.com/basiqio/basiq-sdk-nodejs/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "ajv": "^5.5.2",
+    "request": "^2.83.0"
+  },
+  "deprecated": false,
+  "description": "Node.js SDK Package for Basiq's API",
+  "devDependencies": {
+    "prettier": "^1.16.1",
+    "prettier-webpack-plugin": "^1.2.0",
+    "uglify-es": "^3.3.9",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^3.2.1"
+  },
+  "files": [
+    "dist/index.js",
+    "dist/index.js.map"
+  ],
+  "homepage": "https://github.com/basiqio/basiq-sdk-nodejs#readme",
+  "keywords": [
+    "basiq",
+    "sdk",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "basiq-sdk-nodejs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basiqio/basiq-sdk-nodejs.git"
+  },
+  "scripts": {
+    "build": "webpack && uglifyjs --compress --mangle --output dist/index.js -- dist/index.js"
+  },
+  "version": "1.1.1"
+}
